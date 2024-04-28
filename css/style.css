@@ -67,9 +67,27 @@
     margin: auto;
 }
 
-
+.len{
+    background: black;
+    width: 15px;
+    height: 750px;
+    left: 0;
+}
 .box11{
     width: 600px;
     height: 350px;
     background: green;
+    position: relative;
+}
+.box22{
+    width: 180px;
+    height: 180px;
+    background: red;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 50%;
 }
